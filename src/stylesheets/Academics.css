@@ -1,0 +1,94 @@
+.academics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1rem;
+    position: relative;
+  }
+  
+  .selectors-container {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .selector {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    z-index: 1;
+    background-color: #857373;
+    background-color: #818e8e;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .selector.selector-sort button {
+    background-color: #4CAF50;
+  }
+  
+  .selector.selector-display button.display-btn {
+    background-color: #945653; /* Red background color */
+  }
+  
+  .selector p {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    color: #300505;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .selector button {
+    color: #300505;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  
+  .section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: flex-start; /* Ensure boxes do not stretch */
+}
+  
+  .rectangle {
+    background-color: rgba(240, 240, 240, 0.7);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px; /* Reduced padding */
+    margin: 5px; /* Reduced margin */
+    min-width: 150px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 0; /* Prevent stretching */    
+    text-align: left; /* Ensure text is left-aligned */
+
+}
+  
+  h3 {
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    color: #333;
+    text-decoration: underline;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    color: #394b3a;
+    margin-bottom: 5px;
+  }
+  

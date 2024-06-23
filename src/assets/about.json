@@ -1,0 +1,226 @@
+[
+
+    {
+      "title": "Photonics AI - Visiting Researcher",
+      "folder": "photonicsai",
+      "theme": "work",
+      "captions": ["A highway overlooking Yerevan on our way back from visiting several old churches and temples with other conference members. Two of my close lab partners, who work with liquid crystals, turbulence, and optical computing.", 
+                    "Three experiments at once. Due to limited resources we must find creative ways to overlap the equipment.", 
+                    "One-Week Regional Optics conference held at our university (Yerevan State University). Researchers from India, Iran, Russia, Armenia, Europe, presented on a wide range of photonics research.", 
+                    "Stones from a 1000+ year old church in the Armenian countryside."],
+      "main_caption": ["In Summer 2023, I am researching for 10 weeks at Yerevan State University, PhotonicsAI Lab (Physics Department). It is a great collection of professionals, phd students, masters students, and undergrads, specializing in the synthesis of optics and liquid crystals. The physics of liquid crystals interests us for many reasons, both with its controllability in some cases to produce useful optical effects, as well as its chaotic structure which allows us to explore turbulence. We are working on projects like arbitrary matrix multiplication, post-turbulence reconstruction, and optical-system-on-a-chip fabrication.","My project in particular is an extension of my advisor's phd work, linked below. He has shown that optical reservoir computing has some effectiveness at predicting a 1D chaotic simulation, and has experimentally verified the runtime advantages. My work (with my co-researcher Vahagn), aims to go steps further. We want to predict actual chaos (liquid crystals), not simply simulated data. This work involves understanding and exploration of liquid crystal physics, data manipulation strategies, chaotic systems analysis for metrics, and general machine learning techniques.","In addition to our main goal of implementing an optical reservoir computer for real chaotic data, I am also looking into ways we can formalize/standardize these often vague chaotic machine learning challenges, and working a lot in simulation. We also ran a 10 day summer camp for university students introducing liquid crystal experimental optics, with theory and experiments."],
+      "links": [["Motivational Paper from my Advisor","https://journals.aps.org/prx/pdf/10.1103/PhysRevX.10.041037"]],
+      "local_links": [], 
+      "date": "2023-06-12"
+    },
+
+    {
+      "title": "RespiQ Internship - Breath-Tech Startup (python+bash)",
+      "folder": "respiq",
+      "theme": "work",
+      "captions": ["My room. Shared an apartment with some Spanish students and engineers.", 
+                    "Picture after bbq on the roof for meeting with advisors and investors. From left to right: Advisor/Investor, CTO, CEO, Strategist, Advisor/Investor, Me, Business.",
+                    "There is never any rest for the 3d printer. Iteration, Testing, Data. It's important. I learned being too frugal on the R&D budget should be justified strongly, as it really slows things down.", 
+                    "Coworking space. There were many cool startups at PLNT, specifically in bio, physics, and ML, and there were always cool events going on in the building." 
+                    ],
+      "main_caption": ["In Summer 2022, I interned at RespiQ in Leiden, Netherlands, a member of the PLNT startup hub. Biomarkers in the breath exist for the detection of ailments such as food allergies, COPD flareups, and even cancers - some well-understood, others requiring more complex analytics. We were prototyping a breathing device to allow for non-invasive regular health insights.","I worked under an NDA so I can only speak generally about my activities there. I created from scratch a data processing pipeline and the associated software, also inventing metrics for quantifying progress. This was a difficult problem, as the assumptions we could put on the data were small and varying rapidly, so I needed to create a flexible framework, that would last them as long as possible, anticipating future development of the prototype. At the same time, I was involved with the physical design & logistics.","We had a small technical team of the CTO, a mechanical engineer, myself, and electrical engineering + physics contracters. So we all had to wear multiple hats and collaborate across topics. It was an amazing group and we did our best, but I really got to see how important it is to have a good balance - and clear lines of communication between - the technical and business sides. "],
+      "links": [],
+      "local_links": [], 
+      "date": "2022-06-10"
+    },
+
+    {
+      "title": "Undergraduate Researcher in Semiparametric Transportation Modeling",
+      "folder": "semiparametric",
+      "theme": "work",
+      "captions": ["Mode choice at a popular BART station. The black lines represent the official start and end of the accident. We see the driving fraction initially lags the expected value, but eventually catches up.","The demand for driving decreases astronomically on accident day. You can see how drastic the decrease in driving demand is on accident day. The ability to choose not to travel at all presented complications for the analysis.","An example of one of our datasets. There are detectors on the road that report the number of cars that pass over it. We often used the idea of segments to lower our dimensionality.","An in-depth look at BART ridership increases across the different stations. The purpose was to help focus our investigations, and understand the network better."],
+      "main_caption": ["I worked on this project in the Summer and Fall of 2020. We were studying the transportation network of northern San Francisco, with emphasis on an accident on 5/29/19. Firstly, we were interested in modelling how commuters choose whether to drive or take public transit (BART). Additionally, we used a semi-parametric approach to try and reasonably generalize to out-of-distribution days. We noticed that there seemed to be a time lag in information dispersion, and we attempted to quantify the effect of this loss, and see how probing the network with information could improve the efficiency."],
+      "links": [["Video about the accident.", "https://www.youtube.com/watch?v=95ajJN85Mq4"]],
+      "local_links": [], 
+      "date": "2020-10-31" 
+    },
+
+    {
+      "title": "Data Science Intern at Crusoe Energy",
+      "folder": "crusoe",
+      "theme": "work",
+      "captions": ["The office was in a WeWork, located in the Brooklyn Navy Yard. This was the view from the balcany.","The corner of the office. The rest of the company was in SF, just our software team of 4 was in nyc, crammed into a small room. At least we had plants!","Water bottle with the company emblem on it, and my kitchen","My Brooklyn apartment was on top of a preschool"],
+      "main_caption": ["In the winter of 2020 I worked as a software engineer / data scientist for Crusoe Energy, a mid-sized startup at the time going through Series-B with about 30 employees. The company provides on-site data centers to use waste energy from oilfields. Here again, I am under an NDA - broadly speaking I worked on software, data, and research - but I will say I learned an incredible amount in my short time here. The software team and the company as a whole were run excellently."],
+      "links": [],
+      "local_links": [], 
+      "date": "2020-01-31" 
+    },
+
+    {
+      "title": "Canvas Scraper (Selenium, BeautifulSoup)",
+      "folder": "canvasscraping",
+      "theme": "projects",
+      "captions": ["Code excerpt from the beginning, where you can configure your computer, and choose what type of scraping you want done. It used to be easier to organize the folders, but canvas changed up its html tagging strategy.",
+                    "The top level of the resulting directory. Courses will be sorted by semester.",
+                    "The middle level. All the different courses you were signed up for in a semester: in this case, Spring 2021.", 
+                    "The lower level. Everything matching keywords or likely tags for a useful (sufficiently-small) file you might want to keep for the future is downloaded from a particular course: in this case, 18.650 (statistics)."],
+      "main_caption": ["I first wrote this file scraper in 2021, as I was scholarship chair of my fraternity at the time. MIT uses Canvas for classes, and you can download the materials if you would like to go back to things later -- or if there's a class you want to learn about but don't have time during the semester. I am always learning in my free time, and Canvas is pretty structured, so I realized a good way to collect materials would be to pull them off the site in an automated way. I have seen my friends manually clicking 100s of pdfs to download so they can review the material at a later date, and they have been grateful to use this tool. I revamped it in 2023 to bring it up to date with the new website and updated libraries."],
+      "links": [],
+      "local_links": [], 
+      "date": "2021-06-12" 
+    },
+    
+    {
+      "title": "Memory Center (django+flutter)",
+      "folder": "MemoryCenter",
+      "theme": "projects",
+      "captions": ["Home page. View your own cards or your friend's",
+                    "Profile page. All your data can be found here. Check to see how you are progressing on different items.",
+                     "Google Translate input method - period seperated list.", 
+                     "Study-mode, mid-transition. User just got the russian word for onion correct, and swiped right."],
+      "main_caption": ["Summary: i built flutter app to enhance flashcard input and studying, in a way that focuses on long-term memory, and ease of input, so the consumer's time spent is almost fully on the learning and none of the meta-tasks.","Listening to a podcast on a train back from Germany, I heard an ex-kgb agent describe his method for language learning. It captivated me, and a year later, I found time to build out an app to replicate this. Improving the memorization process can very useful beyond just learning languages.","I set out to solve 2 main problems with other apps like Goodnotes or Quizlet: (1) Input time should be as small as possible (2) The user should not have to worry about inventing/managing the study process. The result is a cross-platform app that has multiple card input methods.","The data organization is intuitive, with groupings of topics, which can be studied simultaneously in collections. It is easy to toggle this on or off, depending on what you want to work on that day. The studying is automated, different cards will be retrieved at different rates dependent on your success. When a card is retired, it will be reintroduced after a period to make sure you did not forget. Lastly, there are social aspects, where you can collaborate on topics/collections.","It is currently being beta-tested by family and close friends. Built in less than a month with no prior Django or Flutter knowledge."],
+      "links": [],
+      "local_links": [], 
+      "date": "2023-07-01"
+    },
+
+    {
+      "title": "MIT Laptop Ensemble",
+      "folder": "LaptopEnsemble",
+      "theme": "life",
+      "captions": ["Live Coding at our MIT algorave Fall 2022", 
+                    "Paid performance for the MIT Infinite Gala fashion show", 
+                    "Javier playing the Theramin, to the crowds pleasure", 
+                    "Grant turning some knobs, looks like a frequency or waveshape adjustment."],
+      "main_caption": ["I got involved with the Laptop Ensemble my senior year. We are a performance group, mostly focusing on live coding and modular synthesizers, although we are always experimenting with different technologies. Some students have done performances with light sensor instruments, vibration boxes, EEG interfacing, the theramin, and even a quad-oscillator self-built glove instrument. I learned a lot about building and debugging your own sound systems, and the art of live group performance. Notable performances include: Beautiful Machines Algorave at ZuZu bar on Mass. Ave., the MIT Infinite Gala, a live coding concert at the Harvard Musical Media Conference, as well as many fun MIT concerts."],
+      "links": [],
+      "local_links": [], 
+      "date": "2023-5-20"
+    },
+
+    {
+      "title": "Ulaanbaatar Heating Initiative - AnthroEngineering",
+      "folder": "Mongolia",
+      "theme": "projects",
+      "captions": ["Sensor design in MUST (Mongolia University of Science and Technology)", 
+                    "Coal-fired powerplants in the background. Foreground: typical perimeter district, road conditions make distribution a complex engineering challenge.", 
+                    "Overnight stay in a ger district. Good to see the central role of the coal stove in life, how difficult it might be to get rid of the centerpiece of the house.", 
+                    "Forum with over 100 students and local residents. Fielded a productive Q&A."],
+      "main_caption": ["This is a many-year collaboration between MIT and Mongolian Universities on the topic of heating in Ulaanbaatar (see below for specifics). The novel idea was to synthesize anthropological and engineering approaches. This is in response to the numerous attempts to engineer the city out of its coal-dependence and horrible air quality that have failed miserably due to not taking into consideration the human factors - the side notes that are much more important than we often realize.","In the fall of 2022 I took an Anthro-Engineering course, where we studied general anthropology, Mongolian anthropology, systems thinking, and engineering ideas for tackling the complex problem. My final paper is below: where we were tasked to each propose different interventions. The initial idea was to transport to the gers a molten salt heat brick utilizing waste heat. The point being to reduce on-site coal burning. However, there are many logistical difficulties, and everyone is keeping an open mind about all the different potential avenues for change.","In January, when temperatures regularly reach -40, we travelled to Mongolia for 10 days, meeting with stakeholders (government officials, entrepreneurs, community leaders, ger residents), and designing an experimental setup with the students there. In the spring, we continued to iterate the design with the help of increasing data, and maintained an ongoing collaboration with the MUST students.","Specifics on the makeup of the team: MIT anthropology, MIT NEET CSS (climate and sustainability systems), NUM anthropology (National University of Mongolia), and MUST nuclear/chemical engineers (Mongolia University of Science and Technology). I was part of both MIT groups. After visiting, the team has expanded to include various entrepreneurs & engineers in Ulaanbaatar, and leaders from other cities in Mongolia."],
+      "links": [],
+      "local_links": ["21A_S01_Final_Project.pdf"], 
+      "date": "2023-01-15"
+    },
+
+    {
+      "title": "Bachelors Degree in Physics - MIT",
+      "folder": "physics_undergrad",
+      "theme": "work",
+      "captions": ["Finding the maximum safe current for the Frank-Hertz experiment in 8.13",
+                    "The current begins to take off once the gas can be ionized. This is a feature of the complex 3 voltage potential scheme in the chamber.",
+                    "X-ray experiment. The left is a detector, the right is a radioactive box. We performed several experiments, the one shown here was in measuring attenuation coefficients of different metals. We also were able to identify composition of some old coins.",
+                    "Frank-Hertz setup. From left to right: temperature monitor, multimeter, main chamber, voltage control box, anode current measurement",
+                    "Flexible peak detection I wrote, looks a bit strange when graphed due to weird discretization",
+                    "Angular dependence of muon flux, we get good agreement with theory",
+                    "Some work from 8.223 (Classical Mechanics II)",
+                    "Some work from 8.05 (Quantum Mechanics II). The beginning of a long problem on squeeze states."],
+      "main_caption": ["I really enjoyed my physics degree. At MIT we are especially fortunate to have professors lead the recitations. Also, the major is small enough that we get to learn a lot from one another. Some of my favorite classes were 8.012, 8.022, 8.033, 8.223, 8.05, and 8.13. I learned a lot from these. One funny anecdote is that in 8.05 my recitation instructor Liang Fu decided we would instead learn condensed matter theory rather than reviewing quantum."],
+      "links": [],
+      "local_links": [], 
+      "date": "2023-06-01" 
+    }, 
+
+    {
+      "title": "Bachelors Degree in Electrical Engineering and Computer Science - MIT",
+      "folder": "eecs_undergrad",
+      "theme": "work",
+      "captions": ["Picture from final project in computer vision. We were attempting to create a multimodal neural network that would generate ambient sound given some pictures, with applications for the hard of sight, virtual reality, art, and lossy data reconstruction. This is outlining the basics of the architecture - it is inspired by DALLE.",
+                    "Project in 6.08 (embedded systems). We implemented a vote chess game. I actually designed these pieces from lines, ellipses, and rectangles, as I didn't realize we were allowed to import pictures. I also contributed with the rest of the design, particularly the front-end but also the vote backend logic.",
+                    "Board wiring for 6.115 (microcontrollers)",
+                    "Project in microcontrollers class. I allowed a user to input messages on a keypad, and these would be encoded and written to the psoc using the light on the cactus. Then, the car could be driven to its destination, and the messages could be decoded. The purpose is to make it difficult to notice when you are sending secret messages, theoretically this would go on a robot looking like a mouse or small bug.",
+                    "Designing my own audiovisual instrument in interactive music systems",
+                    "We have achieved magnetic levitation in controls class (6.320)"],
+      "main_caption": ["I was fortunate to have the opportunity to study in the 6-2 program, and touch the hardware, software, and mathematical sides of computing. I am interested in how we do computation, regardless of the substrate, and it has given me a strong background to approach design. I got to work on many projects where I learned technical skills, communication, teamwork, and how to build things fast. A few snapshots are below."],
+      "links": [],
+      "local_links": [], 
+      "date": "2023-06-01" 
+    },
+    
+
+    {
+      "title": "Underactuated Robotics Final Project: Brachiation Robot",
+      "folder": "underactuated",
+      "theme": "projects",
+      "captions": ["Geometric derivation of conditions for an inclined limit cycle",
+                    "Formulation of the system and variables. Notice the back arm ends up in front.",
+                    "An example from simulation of the monkey tackling the upwards bars",
+                    "Images of the straight swing for different models of the actuation."],
+      "main_caption": ["In 6.832 (underactuated robotics) I worked on trajectory optimization of brachiation on bars with my partner Kaleb Blake. Essentially, we were studying optimal swing trajectories on 'monkey bars' - flat, sloped upwards, and sloped downwards. The cost function combined time and actuator effort. We were able to find limit cycles for different incline angles, as well as for different models of the actuators (shoulder vs arms vs upside down walking). We saw that the optimized trajectories had similar features to what we see from monkeys or humans swinging.  "],
+      "links": [],
+      "local_links": [], 
+      "date": "2022-05-30" 
+    },
+
+    {
+      "title": "Supergroups White Paper",
+      "folder": "Supergroups",
+      "theme": "projects",
+      "captions": ["An example of how the group stage is organized",
+                    "The full tournament setup",
+                     "How a sample group stage could play out", 
+                     "Simulated probabilities for the final group positions, based on historical performances in recent World Cups."],
+      "main_caption": ["In Fall 2022, while FIFA was debating in which way should they break the symmetry for the expanded 48 team World Cup 2026, my friend and I struck upon an elegant solution. There exists a natural extension for 3*2^N tournaments, that maintains several important properties of the 2^N tournaments which we are so used to. When FIFA went ahead with a proposition that is sure to encourage undesirable behavior like match fixing and temporal advantages - we wrote this paper, and have since been trying to promote it. We also believe there is a ripe field of combinatorics for sports and competitions that we hope will blossom in the near future."],
+      "links": [["Read the paper", "https://www.dropbox.com/s/07wialzpkpmo69r/SupergroupsPaper.pdf?e=2"]],
+      "local_links": [], 
+      "date": "2023-06-28"
+    },
+
+    {
+      "title": "Teaching / Mentoring",
+      "folder": "teaching",
+      "theme": "life",
+      "captions": ["The breakroom at MIT Splash. A peer and I taught a self-designed course on Puzzles and the History of Mathematics to about 40 students coming to campus for the weekend from all over the world.", "As scholarship chair of my fraternity, i emphasized connecting with others in your classes, organized review sessions, and wrote software for educational purposes.","Sometimes I have tutored for clubs or profit, but I am almost always tutoring some student privately. Additionally, this summer (2023), I will be teaching a few summer camps on physics and AI.", "Growing up I coached math teams, coached sports teams, and participated in mentorship outreach programs to young students."],
+      "main_caption": ["I am usually doing some sort of teaching or mentoring on the side. When you teach, you need to reexplain your ideas in different ways, and you learn where your understanding isn't so strong, strengthening your foundations. Another great reason to teach others and especially those younger than you is to learn from their creativity, and fresh perspective. Lastly, I appreciate the great teachers i had, and think passing on knowledge is one of the more meaningful things you can do."],
+      "links": [],
+      "local_links": [], 
+      "date": "2019-10-10" 
+    },
+
+    {
+      "title": "Fantasy Premier League Bot",
+      "folder": "fplai",
+      "theme": "projects",
+      "captions": ["While mostly functional, we use classes for the bot itself, as we provide for different 'personalities' (parameter choices). If you zoom in, you can see there are things like decision parameters (what do do once you have point projections), modelling parameters, chip decision parameters, timing of the transfer (to take account of the market), and so on.",
+                  "An example of feature importances from a model without the most heavily engineered statistics. For predicting points in the next week, you can notice major factors are the minutes in the last game (there are many bench players, or rare players), Season Average points, and number of opponents in the next week (sometimes there are multiple games). You can also see some of my more engineered features, like one-hot encoding for scoring in different ranges (good week, great week), and at the end: the average points conceded by your opponents, to people in your position. We have hundreds of feature possibilities, but of course we do cross-validation to come up with the best size, which tends to be between 30-80. ",
+                  "Printing of the model projections for some week for sanity checking. We are predicting on the next week for team selection purposes, and on the next 6 for longer term planning decisions.",
+                  "Just the first picture I could find of an example week. You can see, it has done well to stack up on Arsenal players. These blank-gameweeks are some of the most difficult things to get right, as humans usually approach it with precise planning, getting the 11th playing player just as that week arrives."],
+      "main_caption": ["I was attracted to this fantasy game growing up due to the evident simplicity of a weekly decision problem that is extraordinarily complex (see below). People have come up with many different strategies: some like to use statistics, some think they pick up on intangibles about players' potential by watching live. But, growing up with alphaZero, and AI always at the front of my mind, I believed that there was sufficient information in the data to outperform the humans. I wrote the main chunk after homework during sleepless nights over the fall of 2020, and by 2021, it was fully automated (now there is a small active human component due to anti-bot measures with the front-end).", "The essence of the game is you need to pick a team of 15 players, who can score points in many different ways based on their real-life performance. The team selection is constrained by position, and by your budget: as each player has a price which evolves over the year based on supply and demand of other users in the game. Each week you can make 1 change (or more for a cost), or you can save your change up and have 2 for the next week. Each week you decide 11/15 to get points from that week, and also a captain to get 2x. There are also special 'chips' that you can use once, such as 'wildcard' where you can change your whole team, or 'triple captain'.","It has been a super interesting challenge, requiring data engineering, modeling, coming up with decision/planning methods, search algorithms, and managing state. The modeling was chosen to be RandomForestRegression with the idea of mapping a current player to many similar past players. Initial results have shown it to perform better than neural nets; however, the model type and best features are still being optimized. When I get more time, I hope to remove my algorithms for decision from point projection, and learn the game end to end with RL. Already though, it is performing very respectably, typically finishing in the top 10% of all fantasy players worldwide (and this is with some severe handicaps right now). Furthermore, it is consistently finding impressive sleepers."],
+      "links": [],
+      "local_links": [], 
+      "date": "2021-10-06" 
+    },
+
+    {
+      "title": "Soccer",
+      "folder": "soccer",
+      "theme": "competitions",
+      "captions": ["Awaiting the start of the match. The MIT team was full of incredible players, the three next to me were some of the best I ever played with.",
+                    "The coaches and captains of Briar Woods High School 2019 after winning the region championship for the 3rd consecutive year.",
+                    "The last time I played with Loudoun, my club since I was 4 years old. Almost everyone in this picture went on to play in university.",
+                    "My fraternity IM team in 2019. Football is also a great way to connect with others, whether at MIT or around the world. I am grateful for the game."],
+      "old_main_caption": "I played soccer since I could walk. I've been a center midfielder almost the entire time, with short periods of trying other things. I played for one club my whole youth career, Loudoun. In high school, I served on the Junior Board of Directors at the club for 2 years. I enjoyed the responsibility of often taking penalties for the team. In 6th grade, I went to a 1 week training camp in London with Tottenham Hotspur, after being scouted at a tournament in MD. I also went to several US National Training Centers throughout the years. I played for my High School Varsity team for 3 years, starting and winning the District & Region Championship every year, and the State Championship my sophomore year. I captained the team senior year, and won several individual awards, such as making the all-loudoun-county, all-state, and washington post teams. I also started for the MIT team as an attacking midfielder. I struggled with injuries but still contributed, earning 1st team all-conference honors senior year. We also won the Newmac regular season championship in 2021. Soccer has provided me an avenue to express my creativity. It taught me so much about hard-work, composure, teamwork, psychology, and not counting on second-chances. It is also a great social endeavor, and I have met countless people around the world playing wherever the game pops up - whether its tennis courts near my house, a park in Montana, or the cages in Yerevan.",
+      "main_caption": ["I played soccer ever since I could walk. I've been a center midfielder almost the entire time, with short periods of trying other things. I played for one club my whole youth career, Loudoun Soccer Club.   During my last two years at the club, I served on the Junior Board of Directors.","One of the most impactful events in my youth soccer career occurred in the 6th grade, when I went to a 1-week training camp in London with Tottenham Hotspur, after being scouted at a tournament in MD.   Everything about that week - traveling overseas without my parents, training with professional coaches, working as a ballboy at two professional matches – gave me a new appreciation for what the sport had to offer.","I played for my High School Varsity team for 3 years, starting and winning the District & Region Championship every year, and the State Championship my sophomore year. I captained the team senior year, and won several individual awards, such as making the All-State (Virginia) and All-Metro (Washington Post) teams.","At MIT,  I also played as a central attacking midfielder. During my junior year season (Fall 2021), the team attained the highest national ranking in program history (6th), won the NEWMAC regular season, and finished with a 13-4-2 record.   Individually, I was named to NEWMAC All-Conference Team in 2021 and 2022.","Soccer has provided me an avenue to express my creativity. It taught me so much about hard-work, composure, teamwork, psychology, and perseverance.  It also is a great social endeavor and means of making friends, as I have met countless people around the world playing wherever the game pops up - whether its tennis courts near my house, a park in Montana, or the cages in Yerevan."],
+      "links": [["All-Conference Newmac", "https://newmacsports.com/news/2022/11/10/11_10_2022_290.aspx"],["Game Winnner vs Coast Guard + Interview", "https://youtu.be/a-s-FgZkGC4?t=156"]],
+      "local_links": [], 
+      "date": "2022-10-31" 
+    },
+
+    {
+      "title": "Chess",
+      "folder": "chess",
+      "theme": "competitions",
+      "captions": ["Playing hall at a chess tournament before the round starts. I love to walk around while thinking about my moves.", 
+                    "Sometimes, I like to solve chess puzzles. My chess.com puzzle rating is currently 3204 (July 2023). That's top 8000 worldwide.", 
+                    "World Open 2018. After losing in round 2, I clutched up and won 7 straight games to collect 1st / 82. My brother also did well in his section this year, so it was a great time.", 
+                    "World Open 2019. One division higher in rating, same result. 2nd round loss, but I had been here before. 1st / 165 this time. Entry fees are high and a lot of money at stake, it makes the 6 hour games super tense."],
+      "main_caption": ["I began playing chess in 5th grade, my first experience was playing in a school team tournament less than a month after I learned how to play. From then until university, I would compete in 1-2 tournaments per year on average. I learned through books, videos, and playing people in coffee shops. I also went back to help coach the elementary school kids. Despite having no formal training and preparing only in short bouts, I have won several tournaments. I can also play without looking at the board."],
+      "links": [],
+      "local_links": [], 
+      "date": "2019-07-06" 
+    }
+  ]
